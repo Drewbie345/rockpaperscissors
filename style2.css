@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Eater|Peralta|Over+the+Rainbow);
+
+body {
+	text-align: center;
+}
+
+h1 {
+	font-family: "Eater";
+	margin-top: 1em;
+}
+
+h2 {
+	font-family: "Over the Rainbow";
+}
+
+h3 {
+	font-family: "Peralta";
+}
+
+h4 {
+	font-family: "Over the Rainbow";
+	font-size: 1.2em;
+}
+.bump {
+	margin-top: 1.5em;
+}
+
+#score-board {
+	display: none;
+}
+
+#rock1-p, #paper1-p, #scissors1-p, #rock1-c, #paper1-c, #scissor-c {
+	padding: 1em;
+}
+
+.border-p {
+	border-radius: 100%;
+	border: 2px solid #33aaee;
+}
+
+.border-c {
+	border-radius: 100%;
+	border: 2px solid #99ff00
+}
+#player-game-pieces {
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#comp-game-pieces {
+	border: 2px solid black;
+}
+#display-winner {
+	display: none;
+	font-family: "Eater";
+	font-size: 1.75em;
+	margin-top: 1em;
+}
+
+#who-won {
+	color: #33bbff;
+	font-size: 1.25em;
+	margin-bottom: .5em;
+}
+
+.again {
+	color: #ff00aa !important;
+	font-family: 'Over the Rainbow';
+}
+
+.pick-choice {
+	pointer-events: none;
+}
+
+#dare {
+	margin-bottom: 5.5em;
+}
